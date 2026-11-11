@@ -6,6 +6,8 @@ A native macOS menu bar app (Swift, AppKit) that shows your remaining AI quota a
 - **ChatGPT** (Codex login): 5-hour and 7-day limits
 - **Antigravity**: per-group quotas. While Antigravity (or Gemini) is open they come from its local server; when it is closed they come from `agy --print /usage --output-format json` (needs the `agy` CLI signed in). The last reading is kept if both fail.
 
+<p align="center"><a href="https://github.com/Abdulazizg1/QuotaPer/releases/download/v1.0.0/QuotaPer-1.0.0.dmg"><b>⬇ Download QuotaPer 1.0.0 (DMG)</b></a><br><sub>macOS 13+ · Apple Silicon and Intel</sub></p>
+
 <p align="center"><img src="docs/screenshot.png" width="300" alt="QuotaPer showing Claude, ChatGPT and Antigravity quota"></p>
 
 The menu bar shows a small gauge ring (filled to your main usage); click it to open the details.
@@ -13,7 +15,7 @@ Bars turn amber at 70% and red at 90%.
 
 ## Install
 
-1. Download `QuotaPer-<version>.dmg` from the [Releases](../../releases) page.
+1. Download [`QuotaPer-1.0.0.dmg`](https://github.com/Abdulazizg1/QuotaPer/releases/download/v1.0.0/QuotaPer-1.0.0.dmg) (or any version from the [Releases](../../releases) page).
 2. Open it and drag **QuotaPer** into **Applications**.
 3. The first time, right-click the app and choose **Open** (it is not notarized yet), then **Open** again.
 4. Click the ring icon in the menu bar.
