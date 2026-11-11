@@ -6,6 +6,8 @@ A native macOS menu bar app (Swift, AppKit) that shows your remaining AI quota a
 - **ChatGPT** (Codex login): 5-hour and 7-day limits
 - **Antigravity**: per-group quotas. While Antigravity (or Gemini) is open they come from its local server; when it is closed they come from `agy --print /usage --output-format json` (needs the `agy` CLI signed in). The last reading is kept if both fail.
 
+<p align="center"><img src="docs/screenshot.png" width="300" alt="QuotaPer showing Claude, ChatGPT and Antigravity quota"></p>
+
 The menu bar shows a small gauge ring (filled to your main usage); click it to open the details.
 Bars turn amber at 70% and red at 90%.
 
